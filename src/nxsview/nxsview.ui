@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>969</width>
-    <height>702</height>
+    <width>979</width>
+    <height>733</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -225,7 +225,7 @@
          <number>0</number>
         </property>
         <property name="maximum">
-         <double>2000.000000000000000</double>
+         <double>5000.000000000000000</double>
         </property>
        </widget>
       </item>
