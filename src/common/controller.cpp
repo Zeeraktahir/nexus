@@ -20,7 +20,7 @@ for more details.
 using namespace nx;
 
 //TODO how to auto-guess ram and gpu?
-Controller::Controller(): max_tokens(300), max_ram(512*1000*1000), max_gpu(256*1000*1000) {
+Controller::Controller(): max_tokens(300), max_ram(512*1000*1000), max_gpu(512*1000*1000) {
 	ram_cache.setCapacity(max_ram);
 	gpu_cache.setCapacity(max_gpu);
 

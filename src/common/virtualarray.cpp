@@ -26,7 +26,7 @@ using namespace std;
 VirtualMemory::VirtualMemory(QString prefix):
 	QTemporaryFile(QDir::tempPath() +"/" + prefix),
 	used_memory(0),
-	max_memory(1<<28) {
+	max_memory(1<<29) {
 
 	setAutoRemove(true);
 	if(!open())
