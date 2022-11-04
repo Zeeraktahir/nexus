@@ -132,7 +132,7 @@ public:
 	nx::TexAtlas atlas;
 	QTemporaryFile nodeTex; //texure images for each node stored here.
 	quint64 max_memory;
-	int n_threads = 4;
+	int n_threads = 8;
 
 	float scaling;
 	bool useNodeTex; //use node textures

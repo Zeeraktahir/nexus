@@ -225,7 +225,10 @@
          <number>0</number>
         </property>
         <property name="maximum">
-         <double>5000.000000000000000</double>
+         <double>6000.000000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>100.000000000000000</double>
         </property>
        </widget>
       </item>
@@ -243,6 +246,9 @@
         </property>
         <property name="maximum">
          <double>24000.000000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>100.000000000000000</double>
         </property>
        </widget>
       </item>
