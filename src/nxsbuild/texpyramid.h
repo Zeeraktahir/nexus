@@ -73,11 +73,11 @@ public:
 		uint32_t w,h;
 	};
 
-	const int side = 4096;
+	const int side = 8192;
 	std::vector<TexPyramid> pyramids;
 	float scale = 0.70710678;
 	int quality = 92;
-	uint64_t cache_max = 2000000000;
+	uint64_t cache_max = 20000000000;
 	uint64_t cache_size = 0;
 	uint64_t access = 1;
 
