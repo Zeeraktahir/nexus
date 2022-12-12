@@ -66,7 +66,7 @@ public:
 
 	Renderer():
 		mode(TRIANGLES | NORMALS | COLORS | TEXTURES),
-		cone_culling(false), frustum_culling(true), occlusion_culling(false),
+		cone_culling(false), frustum_culling(false), occlusion_culling(false),
 		target_error(3.0f), max_rendered(0), controller(NULL), frame(0) {}
 
 	void startFrame();
