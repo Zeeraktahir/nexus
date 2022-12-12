@@ -73,7 +73,7 @@ public:
 		uint32_t w,h;
 	};
 
-	const int side = 8192;
+	const int side = 4096;
 	std::vector<TexPyramid> pyramids;
 	float scale = 0.70710678;
 	int quality = 92;
